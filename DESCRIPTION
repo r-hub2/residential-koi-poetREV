@@ -1,0 +1,21 @@
+Package: poetREV
+Type: Package
+Title: A Revised Version of POET
+Version: 1.0
+Date: 2024-08-04
+Authors@R: person(given = "Wenliang", family = "Ding", role = c("aut", "cre"), email = "jwenfight@163.com")
+Author: Wenliang Ding [aut, cre]
+Maintainer: Wenliang Ding <jwenfight@163.com>
+Description: A fast implementations of POET (Large covariance estimation by thresholding principal orthogonal complements, <doi:10.1111/rssb.12016>). A cross-validation procedure for K (the number of latent factor) and C (the shrinkage intensity) is provided.
+License: MIT + file LICENSE
+Imports: MASS, Rcpp (>= 1.0.13), RcppArmadillo (>= 14.0.0.1),
+        RcppProgress (>= 0.4.2), doParallel (>= 1.0.17), foreach (>=
+        1.5.2)
+LinkingTo: Rcpp, RcppArmadillo, RcppProgress
+URL: https://github.com/dwla/poetREV
+BugReports: https://github.com/dwla/poetREV/issues
+Encoding: UTF-8
+NeedsCompilation: yes
+RoxygenNote: 7.2.2
+StagedInstall: yes
+Packaged: 2024-08-04 05:29:47 UTC; jwen
